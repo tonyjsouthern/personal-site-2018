@@ -18,6 +18,6 @@ app.get('/wake', function(res){
   console.log("Rise And Shine!")
 })
 
-app.listen(8000, function () {
-  console.log('Example app listening on port 8000!');
+app.listen(process.env.PORT || 8000, function () {
+  console.log('Listening on port 8000!');
  });
