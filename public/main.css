@@ -1,6 +1,12 @@
 .cont {
-  margin: 25px auto;
-  width: 500px;
+  width: 600px;
+  height: 194px;
+  position:absolute !important;
+   top:0 !important;
+   bottom:0 !important;
+   left:0 !important;
+   right:0 !important;
+   margin:auto !important;
 }
 
 .is-centered {
@@ -11,7 +17,8 @@ html {
   background: #c31432;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  height: 100%;
+  width: 100%;
 }
 
 .me {
