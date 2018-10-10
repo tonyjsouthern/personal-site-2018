@@ -1,0 +1,33 @@
+.cont {
+  margin: 25px auto;
+  width: 500px;
+}
+
+.is-centered {
+  text-align: center !important;
+}
+
+html {
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.me {
+  display: initial !important;
+  border-radius: 355px;
+  width: 75% !important;
+  margin: 20px auto !important;
+  text-align: center;
+  top: 10px;
+}
+
+.image {
+  text-align: center !important;
+
+}
+
+a {
+  color: #c31432 !important
+}
