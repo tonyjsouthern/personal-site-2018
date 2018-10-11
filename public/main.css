@@ -1,5 +1,5 @@
 .cont {
-  width: 600px;
+  width: 900px;
   height: 194px;
   position:absolute !important;
    top:0 !important;
@@ -37,4 +37,22 @@ html {
 
 a {
   color: #c31432 !important
+}
+
+@media screen and (max-width: 900px) {
+  .cont {
+    width: 100% !important;
+    height: 400px;
+    position:absolute !important;
+     top:0 !important;
+     bottom:0 !important;
+     left:0 !important;
+     right:0 !important;
+     margin:auto !important;
+  }
+
+  .card {
+    width: 100%;
+    height: 400px;
+  }
 }
